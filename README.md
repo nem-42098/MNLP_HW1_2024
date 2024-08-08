@@ -1,1 +1,3 @@
-# MNLP_HW1_2024
+# Sentiment Classifier : First Project for Multilingual Natural Language Processing in MSc. Data Science, Summer 2024
+
+This repository contains the implementation of a sentiment classifier designed for the SardiStance dataset, focusing on the Sardinian movement. The project explores various machine learning architectures, including both recurrent and non-recurrent models, to determine the most effective approach for stance detection in Italian tweets. The model that achieved the best results combined a 2D-CNN character-level embedding, Spacy's MultiHash word embedding, and a BiLSTM layer, resulting in a test accuracy of 64.8% and a Macro-F1 score of 0.50. This repository includes the code, dataset, and instructions for running the models, along with a detailed hyperparameter search that underpins the final model selection.
